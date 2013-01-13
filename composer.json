@@ -1,0 +1,26 @@
+{
+    "name":        "bmatzner/foundation-bundle",
+    "type":        "symfony-bundle",
+    "description": "ZURB Foundation Bundle for Symfony2",
+    "keywords":    ["responsive", "javascript", "symfony"],
+    "homepage":    "http://foundation.zurb.com/",
+    "license":     ["MIT"],
+    "authors":     [
+        {
+            "name":     "Bernd Matzner",
+            "email":    "bernd@matznermatzner.de",
+            "homepage": "http://berndmatzner.de"
+        }
+    ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.1",
+        "bmatzner/jquery-bundle":     "*",
+        "bmatzner/modernizr-bundle":  "*"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Bmatzner\\FoundationBundle": ""
+        }
+    },
+    "target-dir":  "Bmatzner/FoundationBundle"
+}
