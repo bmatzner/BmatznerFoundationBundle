@@ -64,8 +64,8 @@ Refer to the desired files in your HTML template, e.g.
 <script type="text/javascript" src="{{ asset('bundles/bmatznerfoundation/js/foundation.min.js') }}"></script>
 ```
 
-If you require the special Modernizr build included with Foundation's sample apps, refer to the bmatzner/modernizr-bundle
-which this bundle also requires
+If you require the special Modernizr build included with Foundation's sample apps, refer to the bmatzner/modernizr-bundle which this bundle also requires.
+The bundle also includes the app.js file that ships with Foundation, but please be advised to use only the parts needed for your application rather than load and initialize all JS plugins Foundation provides.
 
 ## Licenses
 
