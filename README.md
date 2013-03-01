@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Foundation v3.2.5
+Foundation v4.0.2
 
 ## Installation
 
@@ -60,12 +60,11 @@ Refer to the desired files in your HTML template, e.g.
 
 ``` html
 <link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznerfoundation/css/foundation.min.css') }}" />
-<script type="text/javascript" src="{{ asset('bundles/bmatznerjquery/js/jquery.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/bmatznerfoundation/js/foundation.min.js') }}"></script>
 ```
 
-If you require the special Modernizr build included with Foundation's sample apps, refer to the bmatzner/modernizr-bundle which this bundle also requires.
-The bundle also includes the app.js file that ships with Foundation, but please be advised to use only the parts needed for your application rather than load and initialize all JS plugins Foundation provides.
+The Foundation scripts require either jQuery or Zepto. Optionally install bmatzner/jquery-bundle or bmatzner/zepto-bundle.
+If you require the special Modernizr build included with Foundation's sample apps, refer to the bmatzner/modernizr-bundle.
 
 ## Licenses
 
