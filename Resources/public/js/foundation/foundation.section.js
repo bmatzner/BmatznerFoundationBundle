@@ -6,7 +6,7 @@
   Foundation.libs.section = {
     name: 'section',
 
-    version : '4.0.0',
+    version : '4.0.3',
 
     settings : {
       deep_linking: false,
@@ -130,7 +130,7 @@
 
     set_active_from_hash : function () {
       var hash = window.location.hash.substring(1),
-          sections = $('[data-section]')
+          sections = $('[data-section]'),
           self = this;
 
       sections.each(function () {
@@ -166,6 +166,9 @@
         return true;
       }
       if ($('html').hasClass('lt-ie9')) {
+        return true;
+      }
+      if ($('html').hasClass('ie8compat')) {
         return true;
       }
       return $(this.scope).width() < 768;
