@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Foundation v4.1.6
+Foundation v4.2.2
 
 ## Installation
 
