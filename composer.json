@@ -13,12 +13,11 @@
         }
     ],
     "require":     {
-        "symfony/framework-bundle": ">=2.1"
+        "symfony/framework-bundle": ">=2.1",
+        "bmatzner/jquery-bundle": "~1.10"
     },
     "recommend":   {
-        "bmatzner/jquery-bundle":     "*",
-        "bmatzner/zepto-bundle":      "*",
-        "bmatzner/modernizr-bundle":  "*"
+        "bmatzner/modernizr-bundle": "*"
     },
     "autoload":    {
         "psr-0": {
