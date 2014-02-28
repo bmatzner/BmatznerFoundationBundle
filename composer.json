@@ -14,7 +14,7 @@
     ],
     "require":     {
         "symfony/framework-bundle": ">=2.1",
-        "bmatzner/jquery-bundle": "~1.10"
+        "bmatzner/jquery-bundle": ">=1.11"
     },
     "recommend":   {
         "bmatzner/modernizr-bundle": "*"
