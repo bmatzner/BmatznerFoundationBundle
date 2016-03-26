@@ -2,7 +2,7 @@
 
 ## Current Version
 
-Foundation v5.5.1
+Foundation v5.5.3
 
 ## Installation
 
@@ -14,7 +14,7 @@ Foundation v5.5.1
 {
     "require": {
 		// ...
-        "bmatzner/foundation-bundle": "~5.3"
+        "bmatzner/foundation-bundle": "~5.5"
     }
 }
 ```
